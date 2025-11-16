@@ -16,12 +16,9 @@ Pamdes Wanasaba adalah solusi digital yang dirancang untuk meningkatkan efisiens
 - **Manajemen Data Pelanggan**  
   Pihak pengelola dapat mengelola data pelanggan secara efisien.
 
-- **Laporan Keuangan**  
-  Mendukung pelaporan keuangan.
 
 ## Manfaat
 
-- Meningkatkan akurasi pencatatan dan perhitungan tagihan.  
 - Memberikan transparansi bagi warga dan pengelola PAMDES.  
 - Mempermudah pengawasan distribusi dan pengelolaan data pelanggan.
 
