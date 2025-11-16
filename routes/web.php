@@ -19,11 +19,12 @@ Route::middleware(['auth'])->group(function () {
         } else {
             return redirect('/pelanggan');
         }
+        
     });
 
     Route::get('/haltambah', fn() => view('haltambah', ['title' => 'Tambah Data']));
 
-     Route::get('/tampil', fn() => view('tampil', [
+    Route::get('/tampil', fn() => view('tampil', [
         'title' => 'Tampil Data',
         'data' => Data::with('user')->filter()->belumLunasFirst()->simplePaginate(10)->withQueryString()
     ]));
